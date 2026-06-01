@@ -38,12 +38,14 @@ Band-Registration-Springboot-project/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/jonas/BandRegistrationSpringboot/
-│   │   │   ├── entity/              # Entidades JPA
-│   │   │   ├── controller/          # Controllers REST
-│   │   │   ├── service/             # Lógica de negócio
-│   │   │   ├── repository/          # Acesso a dados
-│   │   │   ├── dto/                 # Data Transfer Objects
-│   │   │   ├── mapper/              # MapStruct Mappers
+│   │   │   ├── domain/                       # Entidades JPA
+│   │   │   ├── controller/                   # Controllers REST
+│   │   │   ├── service/                      # Lógica de negócio
+│   │   │   ├── repository/                   # Acesso a Banco de dados
+│   │   │   ├── DTO/                          # Data Transfer Objects
+|   |   |   ├── Exceptions/exceptionsDetails? # Tratamento de exceções customizadas
+|   |   |   ├── GlobalHandler/                #  Controle de padronização de exceções        
+│   │   │   ├── mapper/                       # MapStruct Mappers
 │   │   │   └── BandRegistrationSpringbootApplication.java
 │   │   └── resources/
 │   │       ├── application.yaml     # Configuração principal
