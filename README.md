@@ -43,8 +43,8 @@ Band-Registration-Springboot-project/
 │   │   │   ├── service/                      # Lógica de negócio
 │   │   │   ├── repository/                   # Acesso a Banco de dados
 │   │   │   ├── DTO/                          # Data Transfer Objects
-|   |   |   ├── Exceptions/exceptionsDetails? # Tratamento de exceções customizadas
-|   |   |   ├── GlobalHandler/                #  Controle de padronização de exceções        
+|   |   |   ├── Exceptions/exceptionsDetails/ # Tratamento de exceções customizadas
+|   |   |   ├── GlobalHandler/                # Controle de padronização de exceções        
 │   │   │   ├── mapper/                       # MapStruct Mappers
 │   │   │   └── BandRegistrationSpringbootApplication.java
 │   │   └── resources/
